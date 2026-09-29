@@ -20,11 +20,11 @@ st.write("Enter institute and student details to generate report and degree elig
 
 # Input Form Layout
 with st.form("student_form"):
-    institute = st.text_input("Institute Name", placeholder="e.g. National University of Sciences")
-    name = st.text_input("Student Name", placeholder="e.g. John Doe")
-    reg_id = st.text_input("Reg ID", placeholder="e.g. REG-2026-001")
-    semester = st.text_input("Semester", placeholder="e.g. Semester 5")
-    dept = st.text_input("Department", placeholder="e.g. Computer Science")
+    institute = st.text_input("Institute Name", placeholder="e.g. University Name")
+    name = st.text_input("Student Name", placeholder="e.g. Your Name")
+    reg_id = st.text_input("Reg ID", placeholder="e.g. REG-xxxxxx")
+    semester = st.text_input("Semester", placeholder="e.g. Semester x")
+    dept = st.text_input("Department", placeholder="e.g. Degree you Taken")
    
     st.markdown("<b>Subject Marks (0 - 100):</b>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
@@ -181,7 +181,7 @@ if btn_award:
                                         {WAFA_SVG_SIGNATURE}
                                     </div>
                                     <div style="border-top: 1px solid #555555; font-size: 11px; color: #333333; padding-top: 3px; font-weight: bold;">
-                                        Director / Wafa
+                                        Director / Wafa Abbas
                                     </div>
                                 </td>
                                 <td style="width: 34%; text-align: center; vertical-align: bottom;">
