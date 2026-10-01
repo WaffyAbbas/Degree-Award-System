@@ -9,12 +9,7 @@ st.set_page_config(page_title="Student Credentials & Award System", page_icon="ð
 # PRIVATE DATA STORAGE CONFIGURATION
 # Replace these with your Google Form details
 # ==========================================
-FORM_URL = "
-Wafa Abbas . <2501074@students.au.edu.pk>
-4:59â€¯AM (0 minutes ago)
-to me
-
-https://docs.google.com/forms/d/e/1FAIpQLSclFkX-UooKBlfdrIewo9dHZFjoyt17FIui3dksOtzN_StR6A/viewform?usp=pp_url&entry.1976041735=FAST+UNIVERSITY&entry.1078825598=ZIA+KHAN&entry.145665120=4687632&entry.340607546=5&entry.351972048=AI&entry.1777311279=56&entry.526948223=89&entry.1859046813=76&entry.950467776=Award"
+FORM_URL = "https://docs.google.com/forms/d/1q9FmDAsDkxvMBLh-9TPsmbN0y7H27dRIDvgnDpEChOg/edit"
 
 # Map your entry IDs from Step 2 here:
 ENTRY_IDS = {
