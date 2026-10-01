@@ -9,7 +9,7 @@ st.set_page_config(page_title="Student Credentials & Award System", page_icon="ð
 # PRIVATE DATA STORAGE CONFIGURATION
 # Replace these with your Google Form details
 # ==========================================
-FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSclFkX-UooKBlfdrIewo9dHZFjoyt17FIui3dksOtzN_StR6A/viewform?usp=publish-editor"
+FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSclFkX-UooKBlfdrIewo9dHZFjoyt17FIui3dksOtzN_StR6A/formResponse?usp=publish-editor"
 
 # Map your entry IDs from Step 2 here:
 ENTRY_IDS = {
